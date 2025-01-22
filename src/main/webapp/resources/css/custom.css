@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* custom.css */
+.modal-content {
+	background-color: #e8eaf6; /* Light purple-blue background */
+	border-radius: 10px;
+	border: none; /* Remove default border */
+}
+
+.modal-header {
+	border-bottom: 2px solid #1e88e5; /* Dark blue border */
+}
+
+.modal-title {
+	color: #3f51b5; /* Dark blue */
+}
+
+.form-label {
+	font-weight: bold;
+	color: #303f9f; /* Darker blue */
+}
+
+.form-control {
+	border-radius: 5px;
+	border: 2px solid #1e88e5; /* Darker blue border */
+}
+
+.form-control:focus {
+	box-shadow: 0 0 0 0.2rem rgba(30, 136, 229, 0.25);
+}
